@@ -1,0 +1,29 @@
+ext {
+    androidMinSdkVersion = 16
+    androidTargetSdkVersion = 28
+    androidCompileSdkVersion = 28
+
+    //Libraries
+    appcompatVersion = '28.0.0'
+    activityJobExecutorVersion = '1.0'
+
+    //Testing
+    robolectricVersion = '3.0'
+    jUnitVersion = '4.12'
+    assertJVersion = '1.7.1'
+    mockitoVersion = '1.9.5'
+    dexmakerVersion = '1.0'
+    espressoVersion = '2.0'
+    testingSupportLibVersion = '0.1'
+
+    //Development
+    leakCanaryVersion = '1.6.2'
+
+    dependencies = [
+            appCompat: "com.android.support:appcompat-v7:$appcompatVersion",
+            activityJobExecutor: "com.quadible:activityjobexecutor:$activityJobExecutorVersion",
+            leakCanaryDebug: "com.squareup.leakcanary:leakcanary-android:$leakCanaryVersion",
+            leakCanaryRelease: "com.squareup.leakcanary:leakcanary-android-no-op:$leakCanaryVersion"
+    ]
+
+}
