@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         super.onPause()
         IndieDialog()
             .title("Indie")
-            .message("who can be called when no activity is available")
+            .message("which can be called when no activity is available")
             .positiveButton("OK")
             .cancelable(false)
             .show()
