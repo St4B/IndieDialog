@@ -15,8 +15,8 @@ ext {
 
     libraryDescription = 'Easy simple dialog builder, which is independent of Activity'
 
-    siteUrl = 'https://github.com/St4B/ActivityJobExecutor'
-    gitUrl = 'https://github.com/St4B/ActivityJobExecutor.git'
+    siteUrl = 'https://github.com/St4B/IndieDialog'
+    gitUrl = 'https://github.com/St4B/IndieDialog.git'
 
     libraryVersion = '1.0.0'
 
